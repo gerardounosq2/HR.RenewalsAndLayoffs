@@ -9,6 +9,10 @@ namespace HR.RenewalsAndLayoffs.Data.Models
 		[Key]
 		public int Id { get; set; }
 
+		public int? PersonnelNumber { get; set; }
+
+		public int? FortiaId { get; set; }
+
 		[StringLength(150)]
 		public string EmployeeName { get; set; }
 
